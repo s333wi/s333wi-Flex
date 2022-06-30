@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Menlo, Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Vera Sans Mono, Courier New, monospace, serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    background-color: #1f2937;
+}
+
+.header h1{
+    font-size: 24px;
+}
+
+.header {
+    padding: 8px 100px;
+    height: 72px;
+    color: #f9faf8;
+    font-weight:900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Apply margin and padding 0 to lists*/
+ul { 
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+}
+
+.footer,
+ul a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.container-top{
+    background-color: #1f2937;
+}
