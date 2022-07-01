@@ -60,6 +60,7 @@ ul a {
 }
 
 .cont-top-right {
+    height: 200px;
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -87,9 +88,11 @@ button {
     padding: 8px 25px;
 }
 
+
 .left-placeholder img {
     height: auto;
     width: 600px;
+    object-fit: cover;
 }
 
 .container-mid {
@@ -156,7 +159,7 @@ button {
 }
 
 .footer {
-    padding: 8px ;
+    padding: 8px;
     margin-top: 24px;
     text-align: center;
 }
@@ -171,8 +174,8 @@ button {
     gap: 16px;
 }
 
-.text-sign{
-    width:600px;
+.text-sign {
+    width: 600px;
 }
 
 .button-bottom button {
